@@ -1,0 +1,28 @@
+{
+  "name": "package",
+  "version": "1.0.0",
+  "description": "A web app for IPL",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/vipulgowda/ipl_web_app.git"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "husky/pre-commit"
+    }
+  },
+  "author": "vipulp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vipulgowda/ipl_web_app/issues"
+  },
+  "homepage": "https://github.com/vipulgowda/ipl_web_app#readme",
+  "devDependencies": {
+    "husky": "^8.0.3"
+  }
+}
